@@ -1,0 +1,101 @@
+.hero-image {
+  object-fit: cover;
+  width: 100%;
+  height: 817px;
+  position: fixed;
+  z-index: -1;
+}
+.hero-container {
+  /* background: url("./assets/sigirya.jpg") center center/cover no-repeat; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+  object-fit: contain;
+}
+.hero-container > p {
+  margin-top: 18px;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 20px;
+  font-family: "Cormorant Garamond";
+  margin-left: 120px;
+}
+.hero-container > .hero-h1 {
+  font-family: "Abril Fatface", cursive;
+  color: #f8a368;
+  font-size: 90px;
+  margin-top: -70px;
+  margin-left: 120px;
+}
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+  margin-left: 120px;
+}
+
+.about-image {
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  height: 816px;
+  position: relative;
+  top: 142px;
+}
+
+.about-container {
+  /* background: url("./assets/sigirya.jpg") center center/cover no-repeat; */
+  background: #0000;
+  opacity: 0.7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container > .about-h1 {
+  font-family: "Abril Fatface", cursive;
+  color: #fff;
+  font-size: 150px;
+  margin-top: -100px;
+}
+
+.about-container > p {
+  color: #ffff;
+  opacity: 0.99;
+  font-size: 42px;
+  font-family: "Cormorant Garamond";
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 90px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 15px;
+    padding-right: 20px;
+  }
+  .hero-btns {
+    padding-right: 230px;
+  }
+}

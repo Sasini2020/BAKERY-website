@@ -1,0 +1,79 @@
+.middle {
+  padding: 1rem;
+  background: #fff;
+}
+.fas fa-chevron-circle-right {
+  padding: 2px 9px 0px 2px;
+  font-size: 1.1rem;
+  color: #f8a368;
+}
+.fas fa-chevron-circle-right:hover {
+  color: #fff;
+  transition: all 0.2s ease-out;
+}
+
+span {
+  color: rgb(242, 59, 59);
+  font-weight: bolder;
+}
+.img2 {
+  float: right;
+  padding-left: 55px;
+  width: 500px;
+  height: auto;
+}
+.img3 {
+  float: left;
+  padding-left: 5px;
+  padding-right: 55px;
+  width: 400px;
+  height: auto;
+}
+.clearfix,
+.clearfix-2 {
+  padding: 40px 125px 120px;
+  font-weight: 100;
+}
+.clearfix .middle-p-text,
+.clearfix-2 .middle-p-text {
+  font-size: 15px;
+  opacity: 0.8;
+}
+.clearfix .middle-h2,
+.clearfix-2 .middle-h2 {
+  font-size: 60px;
+  color: #161514;
+}
+.clearfix::after,
+.clearfix-2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 820px) {
+  .img2 {
+    max-width: 400px;
+    height: auto;
+    margin-right: -90px;
+    padding-bottom: 30px;
+  }
+  .img3 {
+    margin-left: -70px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img2 {
+    width: 400px;
+    height: auto;
+    margin-right: -90px;
+    padding-bottom: 30px;
+  }
+  .img3 {
+    margin-left: -70px;
+    padding-bottom: 30px;
+    width: 350px;
+  }
+}
